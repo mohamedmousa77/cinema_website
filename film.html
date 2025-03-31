@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Film Proiettati</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Film in Proiezione</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="film.html">Film proiettati</a></li>
+                <li><a href="orari.html">Orari</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="films-container">
+            <div class="film">
+                <a href="film_details.html?film=the_live_list"><img src="images/the_live_list.jpg" height="200" alt="Film 1"></a>
+                <h2>The live list</h2>
+            </div>
+            <div class="film">
+                <a href="film_details.html?film=beverly_hills_cop_axel_f"><img src="images/beverly_hills_cop_axel_f.jpg" height="200" alt="Film 2"></a>
+                <h2>Beverly hills cop axel f</h2>
+            </div>
+            <div class="film">
+                <a href="film_details.html?film=not_hard_feelings"><img src="images/not_hard_feelings.jpg" height="200" alt="Film 3"></a>
+                <h2>Not hard feelings</h2>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Ora attuale: <span id="clock"></span></p>
+    </footer>
+    
+</body>
+</html>

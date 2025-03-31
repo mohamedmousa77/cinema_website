@@ -1,0 +1,132 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #111;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: #f4a261;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+nav ul li a:hover {
+    color: #e76f51;
+}
+.container {
+    background: linear-gradient(135deg, #333, #444);
+    padding: 30px;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.5);
+    max-width: 800px;
+    text-align: left;
+    transition: transform 0.3s ease-in-out;
+}
+.container:hover {
+    transform: scale(1.02);
+}
+h2 {
+    color: #f4a261;
+}
+ul {
+    padding-left: 20px;
+}
+.films-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+.film {
+    background: linear-gradient(135deg, #333, #444);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+.film:hover {
+    transform: scale(1.05);
+}
+.film img {
+    width: 200px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+.film:hover img {
+    transform: scale(1.1);
+}
+.film h2 {
+    color: #f4a261;
+    margin-top: 10px;
+}
+footer {
+    background: #111;
+    padding: 15px;
+    margin-top: 20px;
+    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.5);
+}
+.orari-container {
+    display: flex;
+    /* flex-direction: row;
+    align-items: center; */
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+.film-orario {
+    background: linear-gradient(135deg, #333, #444);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+.film-orario:hover {
+    transform: scale(1.05);
+}
+.film-orario img {
+    width: 250px;
+    border-radius: 10px;
+    margin: 10px 0;
+    transition: transform 0.3s ease-in-out;
+}
+.film-orario:hover img {
+    transform: scale(1.1);
+}
+#film-details {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background: #333;
+    border-radius: 10px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+#film-details img {
+    width: 300px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+#film-details h3 {
+    margin-top: 20px;
+    color: #f4a261;
+}
